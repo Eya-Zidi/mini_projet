@@ -1,0 +1,23 @@
+<p *ngIf="display == true">directives works!</p>
+<fieldset >
+    <img *ngIf="v == true" [src]=imageUrl alt="sorry" width="400">
+    <button (click)="v=!v">change_img</button>
+    <h1 *ngFor="let item of cars"> {{item}} </h1>
+
+</fieldset>
+<fieldset>
+    <legend>Cards</legend>
+    <mat-card class="clickable-card" >
+        <!-- Lien vers le composant "AboutComponent" -->
+        <a routerLink="/first">
+
+          <mat-card-header>
+            <mat-card-title><img [src]=koffa alt="error"></mat-card-title>
+          </mat-card-header>
+          
+        </a>
+    </mat-card>
+    <button class="btn btn-primary">Test Bootstrap</button>
+
+    
+</fieldset>

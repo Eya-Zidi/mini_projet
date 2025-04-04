@@ -1,0 +1,15 @@
+<h1>car or liste</h1>
+<div>
+  <nav>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/car">car</a></li>
+      <li><a routerLink="/listee-client">list</a></li>
+    </ul>
+  </nav>
+  <button (click)="navigateToCar()">Go to Car</button>
+<button (click)="navigateToListe()">Go to Liste</button>
+  <router-outlet></router-outlet> 
+</div>
+<app-car></app-car>
+<app-liste-client></app-liste-client>

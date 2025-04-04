@@ -1,0 +1,43 @@
+.backgroundflag {
+    width:100%;
+    height: 100%;
+    background-image: url('flag.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top center;
+}
+.btncontainer{
+    padding-top:50px;
+}
+.btns4ayyer{
+    width: 100%;
+    font-weight: bold;
+}
+.eventcontainer{
+    padding-top: 20px;
+}
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-top: 20px;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.event{
+    width: 20%;
+}
+.row {
+    row-gap: 20px; /* Ajuste la valeur selon l'espacement souhaité */
+}
+img{
+    padding-right: 100px;
+}
+.car{
+    padding-top: 20px;
+}
+.title{
+        font-family: "Arial", sans-serif;
+      
+}

@@ -1,0 +1,44 @@
+.agenda-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.agenda {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.agenda th, .agenda td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.agenda th {
+  background-color: #007bff;
+  color: white;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}

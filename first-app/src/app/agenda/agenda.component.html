@@ -1,0 +1,20 @@
+<div class="agenda-container">
+  <h2>📅 Mon Agenda</h2>
+  
+  <table class="agenda">
+    <tr>
+      <th>Heure</th>
+      <th>Événement</th>
+    </tr>
+    <tr *ngFor="let event of events">
+      <td>{{ event.heure }}</td>
+      <td>{{ event.titre }}</td>
+    </tr>
+  </table>
+
+  <h3>➕ Ajouter un événement</h3>
+  <input type="text" placeholder="Heure (ex: 10:00)" [(ngModel)]="newEvent.heure">
+  <input type="text" placeholder="Titre de l'événement" [(ngModel)]="newEvent.titre">
+  <button (click)="ajouterEvenement()">Ajouter</button>
+</div>
+

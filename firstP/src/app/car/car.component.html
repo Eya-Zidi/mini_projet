@@ -1,0 +1,13 @@
+<div class="card" style="width: 25rem;">
+    <div class="card-body">
+        <img [src]="photoUrl" class="card-img-top">
+        <h5 class="card-title">marque:{{marque}}</h5>
+        <p class="card-text">prix:{{price}}</p>
+        <button class="btn btn-primary" (click)="f1()">add</button><br>
+        change bidirectionnel de la marque:<input type="text"[(ngModel)]="marque">
+
+    </div>
+    
+
+
+</div>

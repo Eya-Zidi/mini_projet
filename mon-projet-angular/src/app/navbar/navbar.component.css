@@ -1,0 +1,33 @@
+.container{
+    height : 100px;
+}
+.menu-icon {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0;
+    border: 0px solid black;
+    border-radius: 2px;
+}
+.menuzeroborder{
+    border: 0px solid rgba(134, 132, 132, 0.993);
+    border-radius: 2px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+    box-shadow: 0px 4px 8px regba(0,0,0,0.2);
+}
+.gobackbutton{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+.centered{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.ligne{
+    height: 50px;
+    background: rgba(255, 255, 255, 0.9);
+}

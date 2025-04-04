@@ -1,0 +1,15 @@
+.verticalorg{
+    flex: content;
+    flex-direction: column;
+}
+.borderless{
+    border:0px solid black;
+    border-radius: 25%;
+    background-color: white;
+}
+.item{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 21px;
+}

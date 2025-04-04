@@ -1,0 +1,17 @@
+
+.para{
+    background-color: aliceblue;
+    height: 100px;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(162, 36, 36);
+    font-size: large;
+    text-align: center;
+    padding-top: 25px;
+}
+.m{
+    background-color: rgb(201, 20, 20);
+    height: 100px;  
+}
