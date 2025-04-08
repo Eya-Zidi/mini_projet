@@ -2,157 +2,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
-<div class = "backgroundflag">
-    <div class="container-fluid btncontainer">
-        <div class="row">
-            <div class="col-2" >
-                <button (click)="onSwitchComponent(2)" type="button" class="btn btn-outline-dark btns4ayyer" >upcoming events</button>
-            </div>
-            <div class="col-2">
-                <button (click)="onSwitchComponent(3)" type="button" class="btn btn-outline-dark btns4ayyer">past events</button>
-            </div>
+<section class="hero">
+    <div class=" overlay">
+      <div class="row">
+        <h1>"Your involvement makes all the difference."</h1>
+        <p>Every act of kindness brightens the lives of those in need.</p>
+      </div>
+  
+      <div class="row cards-container">
+        <div class=" card">
+          <img [src]=koffa (click)="onSwitchComponent(2)" />
+          <p>koffet roumdhan</p>
         </div>
+        <div class="card">
+          <img [src]=school  alt="Back to school" (click)="onSwitchComponent(2)" />
+          <p>Back to school</p>
+        </div>
+        <div class="card">
+          <img [src]=free alt="Free Medical Day" (click)="onSwitchComponent(2)" />
+          <p>Free Medical Day</p>
+        </div>
+        <div class="card">
+          <img [src]=cancer alt="Donation Campaign" (click)="onSwitchComponent(2)" />
+          <p>free treatment for cancer</p>
+        </div>
+        <div class="card">
+          <img [src]=felastine alt="Donation Campaign" (click)="onSwitchComponent(2)" />
+          <p>Extension of the donation campaign</p>
+        </div>
+      </div>
     </div>
-
-    <div class="container-fluid eventcontainer">
-        <div class="row">
-            <div class="col-3" (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card"> 
-                    <mat-card-content>
-                        <img [src]=koffa alt="" width="375px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">koffet roumdhan</mat-card-title>
-                    </mat-card-header>
-                </mat-card>
-            </div>
-            <div class="col-3"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-content>
-                        <img [src]=school alt="" width="375px" height="150px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">Back to school</mat-card-title>
-                    </mat-card-header>
-                    
-                </mat-card>
-            </div>
-            <div class="col-3"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-content>
-                        <img [src]=free alt="" width="375px" height="150px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">Free Medical Day</mat-card-title>
-                    </mat-card-header>
-                    
-                </mat-card>
-            </div>
-            <div class="col-3"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-content>
-                        <img [src]=felastine alt="" width="375px" height="150px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">Extension of the donation campaign for Palestine</mat-card-title>
-                    </mat-card-header>
-                    
-                </mat-card>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 car" (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-content>
-                        <img [src]=cancer alt="" width="375px" height="150px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">Cancer day</mat-card-title>
-                    </mat-card-header>
-                   
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-content>
-                        <img [src]=blood alt="" width="375px" height="150px">
-                    </mat-card-content>
-                    <mat-card-header>
-                        <mat-card-title class="title">Blood donation</mat-card-title>
-                    </mat-card-header>
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 car" (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-            <div class="col-3 car"  (click)="onSwitchComponent(2)">
-                <mat-card class="hover-card">
-                    <mat-card-header>
-                        <mat-card-title>Hover Over Me</mat-card-title>
-                    </mat-card-header>
-                    
-                    <mat-card-content>
-                        <p>This is a card that will pop up when you hover over it.</p>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-        </div>
-        
-
-    </div>
-
-</div>
+  </section>

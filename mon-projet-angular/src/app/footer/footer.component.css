@@ -1,17 +1,10 @@
-
-.para{
-    background-color: aliceblue;
-    height: 100px;
-    
+.overlay p {
+    font-size: 1.2rem;
 }
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(162, 36, 36);
-    font-size: large;
+.footer {
+    background-color: #ffeaea;
     text-align: center;
-    padding-top: 25px;
-}
-.m{
-    background-color: rgb(201, 20, 20);
-    height: 100px;  
-}
+    padding: 15px;
+    color: #c40000;
+    font-size: 0.9rem;
+}  

@@ -1,16 +1,19 @@
 import { Component } from '@angular/core';
-import { Location } from '@angular/common';
-import { Router , RouterOutlet} from '@angular/router';
+import { Router,RouterOutlet} from '@angular/router'; 
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css'] 
+  styleUrls: ['./navbar.component.css'],
+  standalone: true, // ✅ 
+  imports: [RouterOutlet] 
 })
 export class NavbarComponent {
-  constructor(private location: Location, private router: Router) {}
 
-  goBack() {
-    this.location.back();
+  constructor(private router: Router) {} 
+
+  navigateToCar() {
+    this.router.navigate(['/pastevent']); 
   }
 
 }

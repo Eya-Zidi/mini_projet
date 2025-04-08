@@ -17,6 +17,8 @@ export class MainComponent {
   felastine='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoYM-1wvDNs9wpxQLtBcCRGkR9AUnRtfPOXA&s';
   cancer='https://lirp.cdn-website.com/69c0b277/dms3rep/multi/opt/World+cancer+day+2025-Theme+-+United+by+Unique+-+PACE+Hospitals-Hyderabad-640w.jpg';
   blood='https://accordhospitals.co.in/blogs/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-14-at-12.10.13-1.webp';
+  erreur='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSke44M_Ie9ElUDySlCvrT8SGPUj23cINs5Q&s';
+  aid='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ruf0kckrvarpARxY65bcgVFqi225c6sOyw&s';
   @Output() changeComponent = new EventEmitter<number>();
 
   // Method to emit the event with the component number
